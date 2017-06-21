@@ -168,7 +168,7 @@ function compose(dataLoader) {
         key: '_unsubscribe',
         value: function _unsubscribe() {
           if (this._stop) {
-            this._stop();
+            // this._stop();
           }
         }
       },
