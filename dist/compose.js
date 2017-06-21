@@ -171,6 +171,12 @@ function compose(dataLoader) {
             this._stop();
           }
         }
+      },
+      {
+        key: '_stop',
+        value: function _stop() {
+          
+        }
       }, {
         key: 'render',
         value: function render() {
