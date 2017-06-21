@@ -102,6 +102,10 @@ export default function compose(dataLoader, options = {}) {
         }
       }
 
+      _.stop() {
+        
+      }
+
       render() {
         const props = this.props;
         const { data, error } = this.state;
